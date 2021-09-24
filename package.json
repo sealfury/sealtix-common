@@ -1,12 +1,22 @@
 {
   "name": "@sealtix/common",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "common module for ticketing microservices, among other things",
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
+  "files": [
+    "build/**/*"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clean": "del ./build/*",
+    "build": "npm run clean && tsc",
+    "pub": "npm run build && npm publish"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "sealfury",
+  "license": "ISC",
+  "devDependencies": {
+    "del-cli": "^4.0.1",
+    "typescript": "^4.4.3"
+  }
 }
