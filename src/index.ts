@@ -20,3 +20,6 @@ export * from './events/subjects'
 // EVENTS - TICKETS
 export * from './events/tickets/ticket-created-event'
 export * from './events/tickets/ticket-updated-event'
+
+// EVENTS - TYPES
+export * from './events/types/order-status'
