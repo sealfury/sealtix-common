@@ -4,6 +4,7 @@
 
 #### Link to [NPM Package](https://www.npmjs.com/package/@sealtix/common)
 
-#### Install with `npm install @sealtix/common`
+#### Installation: 
+ - run `npm install @sealtix/common`
 
 More info coming...
