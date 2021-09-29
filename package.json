@@ -1,6 +1,6 @@
 {
   "name": "@sealtix/common",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "common module for ticketing microservices, among other things",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
