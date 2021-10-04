@@ -28,5 +28,8 @@ export * from './events/orders/order-cancelled-event'
 // EVENTS - EXPIRATION
 export * from './events/expiration/expiration-complete-event'
 
+// EVENTS - PAYMENTS
+export * from './events/payments/payment-created-event'
+
 // EVENTS - TYPES
 export * from './events/types/order-status'
