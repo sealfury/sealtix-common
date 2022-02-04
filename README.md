@@ -1,4 +1,4 @@
-### A Common Module Created For Tickets Microservices
+### A Common Module Created For Error Handling, Request Validation, And More
 
 #### See the [repo](https://github.com/sealfury/tickets-microservices-rehash) for implementation details
 
